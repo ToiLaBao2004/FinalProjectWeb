@@ -8,15 +8,7 @@ public class EmployeeLoginRequest {
         return employeeID;
     }
 
-    public void setEmployeeID(String employeeID) {
-        this.employeeID = employeeID;
-    }
-
     public String getPassWordAccount() {
         return passWordAccount;
-    }
-
-    public void setPassWordAccount(String passWordAccount) {
-        this.passWordAccount = passWordAccount;
     }
 }
