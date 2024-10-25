@@ -24,7 +24,7 @@ CREATE TABLE Employees (
     PhoneNumber VARCHAR(12) NOT NULL,
     RoleEmployee NVARCHAR(50) NOT NULL,
     Active CHAR(1) NOT NULL,
-    PassWordAccount VARCHAR(20) NOT NULL,
+    PassWordAccount VARCHAR(100) NOT NULL,
     CONSTRAINT PhoneNumber_Employee CHECK (LENGTH(PhoneNumber) = 10 AND PhoneNumber REGEXP '^[0-9]+$'),
     CONSTRAINT LengthPassWordAccount CHECK (LENGTH(PassWordAccount) >= 6)
 );
