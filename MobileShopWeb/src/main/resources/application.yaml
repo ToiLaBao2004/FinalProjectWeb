@@ -1,13 +1,13 @@
 server:
   port: 8080
   servlet:
-    context-path: /admin
+    context-path:
 
 spring:
   datasource:
     url: "jdbc:mysql://localhost:3306/finalprojectweb"
-    username: MyDung
-    password: "Mydung@1012"
+    username: root
+    password: ""
   jpa:
     hibernate:
       naming:
